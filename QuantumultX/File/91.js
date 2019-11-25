@@ -5,7 +5,9 @@ app download link : http://i91.porn
 QX: 
 ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/91.js
 */
-
+/**
+ * @supported 你的设备ID 4A169E23574D
+ */
 var body = $response.body;
 var obj = JSON.parse(body);
 var headers = $request.headers;
