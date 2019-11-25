@@ -9,7 +9,9 @@ http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-b
 
 Surge & QX MITM = p.du.163.com
 */
-
+/**
+ * @supported 4A169E23574D
+ */
 var body = $response.body;
 var obj = JSON.parse(body);
 

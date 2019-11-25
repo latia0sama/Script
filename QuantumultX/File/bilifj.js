@@ -9,7 +9,9 @@ http-response ^https?:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl requires
 
 Surge & QX MITM = api.bilibili.com
 */
-
+/**
+ * @supported 4A169E23574D
+ */
 var body = $response.body;
 var url = $request.url;
 
